@@ -2,129 +2,80 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Bhavik Pargi | Cybersecurity Portfolio</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <style>
-    body {
-      margin: 0;
-      font-family: Arial, sans-serif;
-      background: #0f172a;
-      color: #e5e7eb;
-      line-height: 1.6;
-    }
-    header {
-      text-align: center;
-      padding: 40px 20px;
-      background: #020617;
-    }
-    header h1 {
-      margin: 0;
-      font-size: 32px;
-    }
-    header p {
-      color: #94a3b8;
-    }
-    section {
-      padding: 30px 20px;
-      max-width: 900px;
-      margin: auto;
-    }
-    h2 {
-      border-bottom: 1px solid #334155;
-      padding-bottom: 5px;
-      color: #38bdf8;
-    }
-    .card {
-      background: #020617;
-      padding: 15px;
-      margin: 15px 0;
-      border-radius: 8px;
-    }
-    a {
-      color: #38bdf8;
-      text-decoration: none;
-    }
-    footer {
-      text-align: center;
-      padding: 20px;
-      color: #64748b;
-      font-size: 14px;
-    }
-  </style>
+  <title>Bhavik Pargi | Cybersecurity Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
 </head>
 <body>
+  <!-- Header / Navbar -->
+  <header>
+    <nav>
+      <h1>Bhavik Pargi</h1>
+      <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
 
-<header>
-  <h1>Bhavik Pargi</h1>
-  <p>Cybersecurity Graduate | SOC • VAPT • DFIR</p>
-</header>
+  <!-- Hero Section -->
+  <section id="hero">
+    <h2>Cybersecurity Enthusiast & Security Analyst</h2>
+    <p>Exploring the digital world safely. 🔒</p>
+    <a href="#projects" class="btn">View Projects</a>
+  </section>
 
-<section>
-  <h2>About Me</h2>
-  <div class="card">
-    <p>
-      I am a Cybersecurity graduate with hands-on experience in SOC monitoring,
-      VAPT, and Digital Forensics & Incident Response. I have worked on real-world
-      security scenarios and am passionate about protecting systems and networks.
-    </p>
-  </div>
-</section>
+  <!-- About Section -->
+  <section id="about">
+    <h2>About Me</h2>
+    <p>Hi! I’m Bhavik Pargi, a passionate cybersecurity professional specializing in SOC, VAPT, and digital forensics. I love protecting systems and exploring vulnerabilities to make the digital world safer.</p>
+  </section>
 
-<section>
-  <h2>Skills</h2>
-  <div class="card">
-    <ul>
-      <li>SOC Monitoring & Incident Response</li>
-      <li>SIEM (Splunk – Basics)</li>
-      <li>Web & Network VAPT</li>
-      <li>OWASP Top 10</li>
-      <li>Linux & Networking Fundamentals</li>
-      <li>Tools: Nmap, Burp Suite, Metasploit, Wireshark</li>
-    </ul>
-  </div>
-</section>
+  <!-- Skills Section -->
+  <section id="skills">
+    <h2>Skills</h2>
+    <div class="skill-container">
+      <div class="skill">Network Security</div>
+      <div class="skill">VAPT</div>
+      <div class="skill">SOC Analysis</div>
+      <div class="skill">Malware Analysis</div>
+      <div class="skill">Ethical Hacking</div>
+    </div>
+  </section>
 
-<section>
-  <h2>Projects</h2>
-  <div class="card">
-    <h3>SOC Incident Analysis</h3>
-    <p>Phishing attack investigation using SIEM logs, IOC identification and reporting.</p>
-  </div>
+  <!-- Projects Section -->
+  <section id="projects">
+    <h2>Projects</h2>
+    <div class="projects-container">
+      <div class="project-card">
+        <h3>VAPT Assessment</h3>
+        <p>Performed penetration testing on web applications to identify vulnerabilities.</p>
+      </div>
+      <div class="project-card">
+        <h3>Malware Analysis</h3>
+        <p>Dynamic and static analysis of malware samples in a controlled environment.</p>
+      </div>
+      <div class="project-card">
+        <h3>SOC Monitoring</h3>
+        <p>Analyzed real-time security alerts and mitigated incidents efficiently.</p>
+      </div>
+    </div>
+  </section>
 
-  <div class="card">
-    <h3>Web Application VAPT</h3>
-    <p>Vulnerability assessment on DVWA / OWASP Juice Shop using Burp Suite & Nmap.</p>
-  </div>
+  <!-- Contact Section -->
+  <section id="contact">
+    <h2>Contact Me</h2>
+    <p>Email: bhavikpargi@example.com</p>
+    <p>LinkedIn: <a href="https://linkedin.com/in/bhavikpargi" target="_blank">linkedin.com/in/bhavikpargi</a></p>
+    <p>GitHub: <a href="https://github.com/bhavikpargi" target="_blank">github.com/bhavikpargi</a></p>
+  </section>
 
-  <div class="card">
-    <h3>Basic Malware Analysis</h3>
-    <p>Static & dynamic analysis to identify malware behavior.</p>
-  </div>
-</section>
-
-<section>
-  <h2>Certifications</h2>
-  <div class="card">
-    <ul>
-      <li>C3SA Premium Edition</li>
-      <li>SOC Analyst Internship</li>
-      <li>Ethical Hacking Internship</li>
-    </ul>
-  </div>
-</section>
-
-<section>
-  <h2>Contact</h2>
-  <div class="card">
-    <p>Email: yourmail@gmail.com</p>
-    <p>LinkedIn: linkedin.com/in/bhavikpargi</p>
-    <p>GitHub: github.com/bhavikpargi</p>
-  </div>
-</section>
-
-<footer>
-  © 2025 Bhavik Pargi | Cybersecurity Portfolio
-</footer>
-
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2025 Bhavik Pargi | Cybersecurity Portfolio</p>
+  </footer>
 </body>
 </html>
